@@ -1,0 +1,28 @@
+    .text_p { color:blue }
+    .text_p:hover {
+        position: fixed;
+        left: 50%;
+        background-color: burlywood;
+        color:rgb(255, 0, 0)
+        }
+     .div_1{
+        background-color: aquamarine;
+        width: 20vw;
+        height: 20vh;
+        animation-name: div;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+     }   
+     @keyframes div{
+        0%{
+            width: 200px;
+        }
+        50%{
+            width: 400px;
+        }
+        100%{
+            width: 200px;
+            
+        }
+     }
+
