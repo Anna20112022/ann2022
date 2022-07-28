@@ -1,3 +1,17 @@
+.header_div{
+        position: fixed;
+        top: 0;
+        background-color: blueviolet;
+        height: 10vh;
+        width: 100vw;
+        z-index: 2;
+    }
+    .header_div_lk{
+        position: relative;
+        left: 10%;
+        text-align: center;
+    }
+
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 .main {
   position: absolute;
